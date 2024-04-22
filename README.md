@@ -37,10 +37,19 @@ To use the Flutter FaceSearch App, follow these steps:
 
 ```bash
 git clone <https://github.com/atul-kumar-shahi/Systemic-Altruism.git>
+```
+3.Navigate to the project directory:
+```bash
 cd flutter-facesearch-app
+```
+4.Install dependencies:
+```bash
 flutter pub get
+```
+5.Run the app:
+```bash
 flutter run
-
+```
 
 
 
