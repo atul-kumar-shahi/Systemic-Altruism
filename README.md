@@ -50,9 +50,10 @@ flutter pub get
 ```bash
 flutter run
 ```
-
+<div style="display: flex;">
 <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="500">
 <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="500">
 <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="500">
 <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="500">
 <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="500">
+</div>
