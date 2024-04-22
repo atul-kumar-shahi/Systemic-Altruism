@@ -51,5 +51,5 @@ flutter pub get
 flutter run
 ```
 
-![Flutter website]([https://flutter.dev/docs/get-started/install](https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpghttps://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg
+![Flutter website](https://flutter.dev/docs/get-started/install](https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpghttps://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg
 )
