@@ -55,13 +55,13 @@ flutter run
         <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Alt text 1" width="280" height="500">
     </div>
       <div style="margin-right: 10px;">
-        <img src="(https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg)" alt="Alt text 1" width="280" height="500">
+        <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Alt text 1" width="280" height="500">
     </div>
       <div style="margin-right: 10px;">
-        <img src="(https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg)" alt="Alt text 1" width="280" height="500">
+        <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Alt text 1" width="280" height="500">
     </div>
       <div style="margin-right: 10px;">
-        <img src="(https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg)" alt="Alt text 1" width="280" height="500">
+        <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Alt text 1" width="280" height="500">
     </div>
 
 </div>
