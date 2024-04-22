@@ -36,5 +36,5 @@ To use the Flutter FaceSearch App, follow these steps:
 2. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/atul-kumar-shahi/Systemic-Altruism.git>
 
