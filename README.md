@@ -51,4 +51,4 @@ flutter pub get
 flutter run
 ```
 
-<img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="450">
+<img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="500">
