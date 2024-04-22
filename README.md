@@ -53,11 +53,12 @@ flutter run
 <div style="display: flex; flex-wrap: wrap;">
     <div style="display: flex; margin-right: 10px;">
         <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Alt text 1" width="280" height="500">
-        <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Alt text 2" width="280" height="500">
-        <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Alt text 3" width="280" height="500">
+        <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/2.jpg" alt="Alt text 2" width="280" height="500">
+        <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/3.jpg" alt="Alt text 3" width="280" height="500">
     </div>
     <div style="display: flex; margin-right: 10px;">
-        <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Alt text 4" width="280" height="500">
+        <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/4.jpg" alt="Alt text 4" width="280" height="500">
+         <img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/5.jpg" alt="Alt text 4" width="280" height="500">
     </div>
 </div>
 
