@@ -1,9 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:systematic_altruism/widgets/custom_button.dart';
-import 'package:systematic_altruism/widgets/custom_snackbar.dart';
 import 'package:systematic_altruism/image_upload_screen.dart';
-import 'package:systematic_altruism/images_from_api.dart';
 
 class LandingPage extends StatelessWidget {
   const LandingPage({super.key});

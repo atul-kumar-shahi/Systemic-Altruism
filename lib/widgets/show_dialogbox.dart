@@ -16,7 +16,7 @@ void showDialogBox(BuildContext context) {
             onPressed: () {
               Navigator.of(context).pop();
             },
-            child: Text('OK'))
+            child: const Text('OK'))
       ],
     ),
   );

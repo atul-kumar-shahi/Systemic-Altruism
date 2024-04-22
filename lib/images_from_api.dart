@@ -9,7 +9,7 @@ import 'package:systematic_altruism/widgets/custom_snackbar.dart';
 import 'package:systematic_altruism/widgets/show_dialogbox.dart';
 
 class ImageFromApi extends StatefulWidget {
-  const ImageFromApi({super.key});
+  const ImageFromApi({Key? key}) : super(key: key);
 
   @override
   State<ImageFromApi> createState() => _ImageFromApiState();
@@ -39,22 +39,23 @@ class _ImageFromApiState extends State<ImageFromApi> {
         Uri.parse('http://192.168.137.1:8000/api/get-post'),
       );
       if (res.statusCode == 200) {
-        final result = jsonDecode(res.body);
+        final result = await jsonDecode(res.body);
         List<dynamic> msgList = result['msg'];
         List<String> imageURLs = [];
         for (var msg in msgList) {
-          String imageURL = 'http://192.168.137.1:8000/images/${msg['imageurl']}';
+          String imageURL =
+              'http://192.168.137.1:8000/images/${msg['imageurl']}';
           imageURLs.add(imageURL);
         }
         setState(() {
           images = imageURLs;
+          print(images);
         });
-      }
-      else{
+      } else {
         showSnackbar(context, 'Please wait while we do our work');
       }
     } catch (e) {
-      showSnackbar(context, 'Something went wrong ,restart again');
+      showSnackbar(context, 'Something went wrong, restart again');
     }
   }
 
@@ -77,15 +78,22 @@ class _ImageFromApiState extends State<ImageFromApi> {
             child: Row(
               children: [
                 IconButton(
-                    onPressed: () {
-                      showDialogBox(context);
-                    },
-                    icon: const Icon(Icons.help)),
+                  onPressed: () {
+                    showDialogBox(context);
+                  },
+                  icon: const Icon(Icons.help),
+                ),
                 IconButton(
-                    onPressed: () {
-                      Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>ImageUploadScreen()), (route) => false);
-                    },
-                    icon: const Icon(Icons.add_a_photo)),
+                  onPressed: () {
+                    Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const ImageUploadScreen()),
+                      (route) => false,
+                    );
+                  },
+                  icon: const Icon(Icons.add_a_photo),
+                ),
               ],
             ),
           )
@@ -94,47 +102,53 @@ class _ImageFromApiState extends State<ImageFromApi> {
         title: const Text('Images'),
       ),
       body: Container(
-        margin: EdgeInsets.all(20),
+        margin: const EdgeInsets.all(20),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
+            const Text(
               'Welcome to FaceSearch',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
-                fontFamily: 'ElsieSwash'
+                fontFamily: 'ElsieSwash',
               ),
             ),
             const SizedBox(height: 20),
-            Text(
-              'Browse through images posted by you till now , let the show begin 🙂',
+            const Text(
+              'Browse through images posted by you till now, let the show begin 🙂',
               style: TextStyle(
                 fontSize: 16,
-                fontFamily:  'LibreCaslon',
+                fontFamily: 'LibreCaslon',
                 fontWeight: FontWeight.w400,
-                color: Colors.grey
-
+                color: Colors.grey,
               ),
             ),
             const SizedBox(height: 40),
-
-            Container(
+            SizedBox(
               height: 350,
               width: 350,
               child: ClipRRect(
                 clipBehavior: Clip.hardEdge,
                 borderRadius: BorderRadius.circular(10),
                 child: (images.isNotEmpty)
-                    ? Image.network(
-                  images[currentIndex],
-                  fit: BoxFit.cover,
-                )
-                    : const CircularProgressIndicator(),
+                    ? FadeInImage(
+                        placeholder:
+                            const AssetImage('assets/images/placeholder.jpeg'),
+                        image: NetworkImage(images[currentIndex]),
+                        fit: BoxFit.cover,
+                      )
+                    : const Center(
+                        child: CircularProgressIndicator(),
+                      ),
               ),
             ),
             const SizedBox(height: 40),
-            CustomButton(onPressed: (){}, text: 'Explore More',icon: Icons.explore_sharp,)
+            CustomButton(
+              onPressed: () {},
+              text: 'Explore More',
+              icon: Icons.explore_sharp,
+            )
           ],
         ),
       ),
