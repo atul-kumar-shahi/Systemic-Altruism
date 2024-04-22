@@ -52,3 +52,4 @@ flutter run
 ```
 
 ![Flutter website](https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg)
+<img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="200" height="200">
