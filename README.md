@@ -51,9 +51,17 @@ flutter pub get
 flutter run
 ```
 <div style="display: flex;">
-<img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="500" style="margin-right: 10px;" >
-<img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="500" style="margin-right: 10px;">
-<img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="500" style="margin-right: 10px;">
-<img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="500" style="margin-right: 10px;">
-<img src="https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg" alt="Image 1" width="280" height="500" style="margin-right: 10px;">
+  <div style="margin-right: 10px;">
+        <img src="[image-url1](https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg)" alt="Alt text 1" width="280" height="500">
+    </div>
+      <div style="margin-right: 10px;">
+        <img src="[image-url1](https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg)" alt="Alt text 1" width="280" height="500">
+    </div>
+      <div style="margin-right: 10px;">
+        <img src="[image-url1](https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg)" alt="Alt text 1" width="280" height="500">
+    </div>
+      <div style="margin-right: 10px;">
+        <img src="[image-url1](https://github.com/atul-kumar-shahi/Systemic-Altruism/blob/main/assets/images/1.jpg)" alt="Alt text 1" width="280" height="500">
+    </div>
+
 </div>
